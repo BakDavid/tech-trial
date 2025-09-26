@@ -1,98 +1,1092 @@
 [
-  {
-    "id": 1,
-    "category": "Data Structures",
-    "question": "What is the time complexity of searching in a balanced binary search tree?",
-    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
-    "answer": "O(log n)",
-    "explanation": "In a balanced BST, the height is log n, so searching takes O(log n) time as we eliminate half the tree at each step."
-  },
-  {
-    "id": 2,
-    "category": "Data Structures",
-    "question": "Which data structure uses LIFO (Last In, First Out) principle?",
-    "options": ["Queue", "Stack", "Array", "Linked List"],
-    "answer": "Stack",
-    "explanation": "Stack follows LIFO principle where the last element added is the first one to be removed."
-  },
-  {
-    "id": 3,
-    "category": "Algorithms",
-    "question": "What is the best case time complexity of Quick Sort?",
-    "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
-    "answer": "O(n log n)",
-    "explanation": "Quick Sort has O(n log n) best and average case complexity when the pivot divides the array into roughly equal halves."
-  },
-  {
-    "id": 4,
-    "category": "System Design",
-    "question": "What is horizontal scaling?",
-    "options": ["Adding more power to existing servers", "Adding more servers to the pool", "Increasing database size", "Optimizing code performance"],
-    "answer": "Adding more servers to the pool",
-    "explanation": "Horizontal scaling means adding more servers to handle increased load, as opposed to vertical scaling which adds more power to existing servers."
-  },
-  {
-    "id": 5,
-    "category": "Web Development",
-    "question": "What does REST stand for?",
-    "options": ["Representational State Transfer", "Remote State Transfer", "Reactive State Transfer", "Relational State Transfer"],
-    "answer": "Representational State Transfer",
-    "explanation": "REST (Representational State Transfer) is an architectural style for designing networked applications."
-  },
-  {
-    "id": 6,
-    "category": "Data Structures",
-    "question": "What is the space complexity of a hash table?",
-    "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
-    "answer": "O(n)",
-    "explanation": "Hash tables require O(n) space to store n key-value pairs."
-  },
-  {
-    "id": 7,
-    "category": "Algorithms",
-    "question": "Which algorithm is best for finding the shortest path in a weighted graph?",
-    "options": ["BFS", "DFS", "Dijkstra's Algorithm", "Binary Search"],
-    "answer": "Dijkstra's Algorithm",
-    "explanation": "Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a weighted graph with non-negative weights."
-  },
-  {
-    "id": 8,
-    "category": "System Design",
-    "question": "What is a CDN (Content Delivery Network)?",
-    "options": ["A type of database", "A distributed network of servers", "A programming framework", "A security protocol"],
-    "answer": "A distributed network of servers",
-    "explanation": "A CDN is a geographically distributed network of servers that deliver content to users from the nearest location to improve performance."
-  },
-  {
-    "id": 9,
-    "category": "Web Development",
-    "question": "What is the purpose of CORS (Cross-Origin Resource Sharing)?",
-    "options": ["To encrypt data", "To allow cross-origin requests", "To compress files", "To cache resources"],
-    "answer": "To allow cross-origin requests",
-    "explanation": "CORS is a security feature that allows web pages to make requests to a different domain than the one serving the web page."
-  },
-  {
-    "id": 10,
-    "category": "Data Structures",
-    "question": "What is the main advantage of a linked list over an array?",
-    "options": ["Faster access time", "Dynamic size", "Less memory usage", "Better cache performance"],
-    "answer": "Dynamic size",
-    "explanation": "Linked lists can grow or shrink during runtime, while arrays have a fixed size in most languages."
-  },
-  {
-    "id": 11,
-    "category": "Algorithms",
-    "question": "What is the time complexity of Merge Sort?",
-    "options": ["O(n)", "O(n log n)", "O(n²)", "O(2^n)"],
-    "answer": "O(n log n)",
-    "explanation": "Merge Sort consistently performs in O(n log n) time for all cases (best, average, and worst)."
-  },
-  {
-    "id": 12,
-    "category": "System Design",
-    "question": "What is database sharding?",
-    "options": ["Creating database backups", "Splitting data across multiple databases", "Optimizing queries", "Indexing tables"],
-    "answer": "Splitting data across multiple databases",
-    "explanation": "Sharding is a database partitioning technique that splits large databases into smaller, more manageable pieces across multiple servers."
-  }
+    {
+        "id": 1,
+        "category": "Data Structures",
+        "question": "What is the time complexity of searching in a balanced binary search tree?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        "answer": "O(log n)",
+        "explanation": "In a balanced BST, the height is log n, so searching takes O(log n) time as we eliminate half the tree at each step."
+    },
+    {
+        "id": 2,
+        "category": "Data Structures",
+        "question": "Which data structure uses LIFO (Last In, First Out) principle?",
+        "options": ["Queue", "Stack", "Array", "Linked List"],
+        "answer": "Stack",
+        "explanation": "Stack follows LIFO principle where the last element added is the first one to be removed."
+    },
+    {
+        "id": 3,
+        "category": "Algorithms",
+        "question": "What is the best case time complexity of Quick Sort?",
+        "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+        "answer": "O(n log n)",
+        "explanation": "Quick Sort has O(n log n) best and average case complexity when the pivot divides the array into roughly equal halves."
+    },
+    {
+        "id": 4,
+        "category": "System Design",
+        "question": "What is horizontal scaling?",
+        "options": [
+            "Adding more power to existing servers",
+            "Adding more servers to the pool",
+            "Increasing database size",
+            "Optimizing code performance"
+        ],
+        "answer": "Adding more servers to the pool",
+        "explanation": "Horizontal scaling means adding more servers to handle increased load, as opposed to vertical scaling which adds more power to existing servers."
+    },
+    {
+        "id": 5,
+        "category": "Web Development",
+        "question": "What does REST stand for?",
+        "options": [
+            "Representational State Transfer",
+            "Remote State Transfer",
+            "Reactive State Transfer",
+            "Relational State Transfer"
+        ],
+        "answer": "Representational State Transfer",
+        "explanation": "REST (Representational State Transfer) is an architectural style for designing networked applications."
+    },
+    {
+        "id": 6,
+        "category": "Data Structures",
+        "question": "What is the space complexity of a hash table?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+        "answer": "O(n)",
+        "explanation": "Hash tables require O(n) space to store n key-value pairs."
+    },
+    {
+        "id": 7,
+        "category": "Algorithms",
+        "question": "Which algorithm is best for finding the shortest path in a weighted graph?",
+        "options": ["BFS", "DFS", "Dijkstra's Algorithm", "Binary Search"],
+        "answer": "Dijkstra's Algorithm",
+        "explanation": "Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a weighted graph with non-negative weights."
+    },
+    {
+        "id": 8,
+        "category": "System Design",
+        "question": "What is a CDN (Content Delivery Network)?",
+        "options": [
+            "A type of database",
+            "A distributed network of servers",
+            "A programming framework",
+            "A security protocol"
+        ],
+        "answer": "A distributed network of servers",
+        "explanation": "A CDN is a geographically distributed network of servers that deliver content to users from the nearest location to improve performance."
+    },
+    {
+        "id": 9,
+        "category": "Web Development",
+        "question": "What is the purpose of CORS (Cross-Origin Resource Sharing)?",
+        "options": [
+            "To encrypt data",
+            "To allow cross-origin requests",
+            "To compress files",
+            "To cache resources"
+        ],
+        "answer": "To allow cross-origin requests",
+        "explanation": "CORS is a security feature that allows web pages to make requests to a different domain than the one serving the web page."
+    },
+    {
+        "id": 10,
+        "category": "Data Structures",
+        "question": "What is the main advantage of a linked list over an array?",
+        "options": [
+            "Faster access time",
+            "Dynamic size",
+            "Less memory usage",
+            "Better cache performance"
+        ],
+        "answer": "Dynamic size",
+        "explanation": "Linked lists can grow or shrink during runtime, while arrays have a fixed size in most languages."
+    },
+    {
+        "id": 11,
+        "category": "Algorithms",
+        "question": "What is the time complexity of Merge Sort?",
+        "options": ["O(n)", "O(n log n)", "O(n²)", "O(2^n)"],
+        "answer": "O(n log n)",
+        "explanation": "Merge Sort consistently performs in O(n log n) time for all cases (best, average, and worst)."
+    },
+    {
+        "id": 12,
+        "category": "System Design",
+        "question": "What is database sharding?",
+        "options": [
+            "Creating database backups",
+            "Splitting data across multiple databases",
+            "Optimizing queries",
+            "Indexing tables"
+        ],
+        "answer": "Splitting data across multiple databases",
+        "explanation": "Sharding is a database partitioning technique that splits large databases into smaller, more manageable pieces across multiple servers."
+    },
+    {
+        "id": 13,
+        "category": "Web Development",
+        "question": "Which HTTP method is idempotent and typically used to update a resource?",
+        "options": ["POST", "PUT", "PATCH", "OPTIONS"],
+        "answer": "PUT",
+        "explanation": "PUT is idempotent and replaces the resource at the given URI with the payload."
+    },
+    {
+        "id": 14,
+        "category": "Algorithms",
+        "question": "What is the average time complexity of searching in a hash table with good hashing?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+        "answer": "O(1)",
+        "explanation": "With a good hash function and low load factor, average lookup is O(1)."
+    },
+    {
+        "id": 15,
+        "category": "Data Structures",
+        "question": "Which data structure is optimal for implementing a priority queue?",
+        "options": ["Binary Heap", "Stack", "Hash Map", "Queue"],
+        "answer": "Binary Heap",
+        "explanation": "Binary heaps support efficient insert and extract-min/max in O(log n)."
+    },
+    {
+        "id": 16,
+        "category": "System Design",
+        "question": "What does the CAP theorem state?",
+        "options": [
+            "You can only have SQL or NoSQL",
+            "Consistency, Availability, and Partition Tolerance cannot all be fully achieved simultaneously",
+            "Latency, Throughput, and Cost cannot be optimized together",
+            "Normalization eliminates all anomalies"
+        ],
+        "answer": "Consistency, Availability, and Partition Tolerance cannot all be fully achieved simultaneously",
+        "explanation": "In the presence of a network partition, a distributed system must choose between consistency and availability."
+    },
+    {
+        "id": 17,
+        "category": "Web Development",
+        "question": "Which HTTP status code indicates a resource was found but moved permanently?",
+        "options": ["301", "302", "404", "410"],
+        "answer": "301",
+        "explanation": "301 Moved Permanently indicates the resource URI has changed permanently."
+    },
+    {
+        "id": 18,
+        "category": "Algorithms",
+        "question": "What is the time complexity of binary search on a sorted array?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        "answer": "O(log n)",
+        "explanation": "Each step halves the search space, leading to logarithmic time."
+    },
+    {
+        "id": 19,
+        "category": "Data Structures",
+        "question": "What is the worst-case time complexity to search an element in an unbalanced BST?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+        "answer": "O(n)",
+        "explanation": "An unbalanced BST may degenerate into a linked list."
+    },
+    {
+        "id": 20,
+        "category": "System Design",
+        "question": "Which cache eviction policy discards the least recently used items first?",
+        "options": ["FIFO", "LRU", "MRU", "Random"],
+        "answer": "LRU",
+        "explanation": "LRU removes items that have not been accessed for the longest time."
+    },
+    {
+        "id": 21,
+        "category": "Web Development",
+        "question": "What is the main difference between cookies and localStorage?",
+        "options": [
+            "Cookies are larger",
+            "localStorage is sent with requests",
+            "Cookies are sent to the server automatically; localStorage is not",
+            "localStorage expires automatically"
+        ],
+        "answer": "Cookies are sent to the server automatically; localStorage is not",
+        "explanation": "Cookies are included in HTTP requests; localStorage persists only in the browser unless read by scripts."
+    },
+    {
+        "id": 22,
+        "category": "Algorithms",
+        "question": "Which algorithm detects cycles in an undirected graph efficiently?",
+        "options": [
+            "Topological Sort",
+            "Union-Find",
+            "Kruskal's without sorting",
+            "Bellman-Ford"
+        ],
+        "answer": "Union-Find",
+        "explanation": "Disjoint-set Union can detect when two vertices are already connected, indicating a cycle."
+    },
+    {
+        "id": 23,
+        "category": "Data Structures",
+        "question": "What is the average time complexity for inserting into a dynamic array (amortized)?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+        "answer": "O(1)",
+        "explanation": "Most insertions are O(1); occasional resizes take O(n), yielding amortized O(1)."
+    },
+    {
+        "id": 24,
+        "category": "System Design",
+        "question": "What is a write-through cache?",
+        "options": [
+            "Writes only to cache",
+            "Writes to cache and database simultaneously",
+            "Writes to database and invalidates cache later",
+            "Writes randomly"
+        ],
+        "answer": "Writes to cache and database simultaneously",
+        "explanation": "Write-through keeps cache and store consistent at write time with higher write latency."
+    },
+    {
+        "id": 25,
+        "category": "Web Development",
+        "question": "What does CSS specificity determine?",
+        "options": [
+            "Selector order",
+            "Which styles apply when multiple rules match",
+            "Download size",
+            "DOM structure"
+        ],
+        "answer": "Which styles apply when multiple rules match",
+        "explanation": "Specificity weights selectors to resolve conflicts between CSS rules."
+    },
+    {
+        "id": 26,
+        "category": "Algorithms",
+        "question": "Which sorting algorithm is stable by default?",
+        "options": ["Quick Sort", "Heap Sort", "Merge Sort", "Selection Sort"],
+        "answer": "Merge Sort",
+        "explanation": "Merge Sort preserves the relative order of equal keys."
+    },
+    {
+        "id": 27,
+        "category": "Data Structures",
+        "question": "What is a trie mainly used for?",
+        "options": [
+            "Graph traversal",
+            "Prefix-based string retrieval",
+            "Matrix operations",
+            "Image processing"
+        ],
+        "answer": "Prefix-based string retrieval",
+        "explanation": "Tries store strings by characters enabling efficient prefix queries and autocomplete."
+    },
+    {
+        "id": 28,
+        "category": "System Design",
+        "question": "Which component distributes incoming traffic across multiple servers?",
+        "options": [
+            "Message broker",
+            "Database replica",
+            "Load balancer",
+            "Cache"
+        ],
+        "answer": "Load balancer",
+        "explanation": "Load balancers spread requests to improve availability and utilization."
+    },
+    {
+        "id": 29,
+        "category": "Web Development",
+        "question": "Which header enables HTTP response caching control?",
+        "options": ["Content-Type", "Cache-Control", "Accept", "Host"],
+        "answer": "Cache-Control",
+        "explanation": "Cache-Control directives manage how, and for how long, responses are cached."
+    },
+    {
+        "id": 30,
+        "category": "Algorithms",
+        "question": "What problem does the KMP algorithm solve efficiently?",
+        "options": [
+            "Shortest path",
+            "String pattern matching",
+            "Minimum spanning tree",
+            "Matrix multiplication"
+        ],
+        "answer": "String pattern matching",
+        "explanation": "KMP precomputes a failure function to avoid redundant comparisons, achieving O(n+m)."
+    },
+    {
+        "id": 31,
+        "category": "Data Structures",
+        "question": "Which data structure is ideal for BFS traversal?",
+        "options": ["Stack", "Queue", "Heap", "Set"],
+        "answer": "Queue",
+        "explanation": "BFS explores neighbors level-by-level using a FIFO queue."
+    },
+    {
+        "id": 32,
+        "category": "System Design",
+        "question": "What is eventual consistency?",
+        "options": [
+            "All reads are always consistent",
+            "Updates are visible immediately",
+            "Given no new updates, all replicas converge",
+            "Only leader handles writes"
+        ],
+        "answer": "Given no new updates, all replicas converge",
+        "explanation": "Eventual consistency allows temporary divergence but guarantees convergence over time."
+    },
+    {
+        "id": 33,
+        "category": "Web Development",
+        "question": "Which mechanism helps prevent CSRF attacks?",
+        "options": ["CSP header", "SameSite cookies", "minification", "ETags"],
+        "answer": "SameSite cookies",
+        "explanation": "SameSite=strict/lax prevents cookies being sent on cross-site requests, mitigating CSRF."
+    },
+    {
+        "id": 34,
+        "category": "Algorithms",
+        "question": "Which algorithm is used to find minimum spanning tree?",
+        "options": ["Prim's", "Floyd–Warshall", "Bellman–Ford", "Johnson's"],
+        "answer": "Prim's",
+        "explanation": "Prim's and Kruskal's build MSTs; Prim's grows a tree by cheapest edge to new node."
+    },
+    {
+        "id": 35,
+        "category": "Data Structures",
+        "question": "What is the advantage of a doubly linked list over a singly linked list?",
+        "options": [
+            "Less memory",
+            "O(1) random access",
+            "Bidirectional traversal/removal",
+            "Simpler implementation"
+        ],
+        "answer": "Bidirectional traversal/removal",
+        "explanation": "Doubly linked lists maintain prev pointers enabling O(1) deletions with direct reference."
+    },
+    {
+        "id": 36,
+        "category": "System Design",
+        "question": "What is a message queue primarily used for?",
+        "options": [
+            "Synchronous RPC",
+            "Decoupling and asynchronous processing",
+            "Schema validation",
+            "Sharding"
+        ],
+        "answer": "Decoupling and asynchronous processing",
+        "explanation": "Queues buffer work between producers and consumers, smoothing spikes and decoupling services."
+    },
+    {
+        "id": 37,
+        "category": "Web Development",
+        "question": "What does the Same-Origin Policy restrict?",
+        "options": [
+            "DNS lookups",
+            "Cross-origin resource reads via scripts",
+            "CSS downloads",
+            "Image loading"
+        ],
+        "answer": "Cross-origin resource reads via scripts",
+        "explanation": "SOP prevents a page from reading sensitive data from another origin via scripts without CORS."
+    },
+    {
+        "id": 38,
+        "category": "Algorithms",
+        "question": "What is memoization?",
+        "options": [
+            "Parallelization",
+            "Caching function results",
+            "Sorting optimization",
+            "Graph traversal"
+        ],
+        "answer": "Caching function results",
+        "explanation": "Memoization stores results of expensive calls to avoid recomputation in recursive/dynamic programming."
+    },
+    {
+        "id": 39,
+        "category": "Data Structures",
+        "question": "Which structure provides O(1) average-time for enqueue and dequeue with circular buffering?",
+        "options": ["Stack", "Queue", "Priority Queue", "Tree"],
+        "answer": "Queue",
+        "explanation": "A circular queue uses head/tail indices to achieve O(1) enqueue/dequeue."
+    },
+    {
+        "id": 40,
+        "category": "System Design",
+        "question": "What is read replication mainly used for?",
+        "options": [
+            "Increase write throughput",
+            "Improve read scalability and availability",
+            "Reduce storage",
+            "Ensure strict serializability"
+        ],
+        "answer": "Improve read scalability and availability",
+        "explanation": "Read replicas offload read traffic and provide failover options."
+    },
+    {
+        "id": 41,
+        "category": "Web Development",
+        "question": "Which API enables server push-style updates to the browser over a single long-lived connection?",
+        "options": ["REST", "WebSockets", "GraphQL", "SOAP"],
+        "answer": "WebSockets",
+        "explanation": "WebSockets provide full-duplex communication for real-time updates."
+    },
+    {
+        "id": 42,
+        "category": "Algorithms",
+        "question": "What is the time complexity of building a heap from an array using heapify?",
+        "options": ["O(n)", "O(n log n)", "O(log n)", "O(n^2)"],
+        "answer": "O(n)",
+        "explanation": "Bottom-up heapify runs in linear time due to decreasing work per level."
+    },
+    {
+        "id": 43,
+        "category": "Data Structures",
+        "question": "Which operation is O(1) on a stack?",
+        "options": ["Search", "Random access", "Push/Pop", "Sort"],
+        "answer": "Push/Pop",
+        "explanation": "Stack operations push and pop occur at one end with constant time."
+    },
+    {
+        "id": 44,
+        "category": "System Design",
+        "question": "What is a circuit breaker in microservices?",
+        "options": [
+            "Cache policy",
+            "Retry policy",
+            "Pattern to stop calling failing services temporarily",
+            "Load balancing algorithm"
+        ],
+        "answer": "Pattern to stop calling failing services temporarily",
+        "explanation": "Circuit breakers prevent cascading failures by opening after repeated errors and allowing recovery."
+    },
+    {
+        "id": 45,
+        "category": "Web Development",
+        "question": "What is the main benefit of server-side rendering (SSR) for SPAs?",
+        "options": [
+            "Smaller bundle size only",
+            "Better initial load and SEO",
+            "Eliminates JavaScript",
+            "Replaces APIs"
+        ],
+        "answer": "Better initial load and SEO",
+        "explanation": "SSR renders HTML on the server improving Time-to-First-Byte and crawlability."
+    },
+    {
+        "id": 46,
+        "category": "Algorithms",
+        "question": "Which algorithm is optimal for finding strongly connected components?",
+        "options": ["Dijkstra", "Kosaraju", "Prim", "Kruskal"],
+        "answer": "Kosaraju",
+        "explanation": "Kosaraju's and Tarjan's algorithms find SCCs in linear time O(V+E)."
+    },
+    {
+        "id": 47,
+        "category": "Data Structures",
+        "question": "Which structure is best to implement an LRU cache?",
+        "options": [
+            "Array only",
+            "Linked list + Hash map",
+            "Stack only",
+            "Priority queue only"
+        ],
+        "answer": "Linked list + Hash map",
+        "explanation": "A doubly linked list with a hash map enables O(1) get/put and eviction."
+    },
+    {
+        "id": 48,
+        "category": "System Design",
+        "question": "What is blue-green deployment?",
+        "options": [
+            "Deploying on two regions",
+            "Maintaining two production environments for zero-downtime release",
+            "Rolling back instantly",
+            "A/B testing"
+        ],
+        "answer": "Maintaining two production environments for zero-downtime release",
+        "explanation": "Blue-green runs two identical envs; switch traffic from blue to green after validation."
+    },
+    {
+        "id": 49,
+        "category": "Web Development",
+        "question": "What problem does debouncing solve?",
+        "options": [
+            "Parallel requests",
+            "Excessive event firing",
+            "Memory leaks",
+            "CSS conflicts"
+        ],
+        "answer": "Excessive event firing",
+        "explanation": "Debouncing groups rapid events and triggers the handler after inactivity."
+    },
+    {
+        "id": 50,
+        "category": "Algorithms",
+        "question": "What is the time complexity of inserting into a balanced AVL tree?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+        "answer": "O(log n)",
+        "explanation": "AVL tree height stays O(log n), so insert/find/delete are logarithmic."
+    },
+    {
+        "id": 51,
+        "category": "Data Structures",
+        "question": "What is a hash collision?",
+        "options": [
+            "Two keys with same value",
+            "Two keys mapping to same bucket",
+            "Key not found",
+            "Duplicate insert"
+        ],
+        "answer": "Two keys mapping to same bucket",
+        "explanation": "A collision occurs when distinct keys produce the same hash index."
+    },
+    {
+        "id": 52,
+        "category": "System Design",
+        "question": "Which database index type supports prefix queries efficiently?",
+        "options": ["Hash index", "B-Tree", "Bitmap", "R-Tree"],
+        "answer": "B-Tree",
+        "explanation": "B-Tree indexes maintain order and support range/prefix scans."
+    },
+    {
+        "id": 53,
+        "category": "Web Development",
+        "question": "What is the purpose of the Content Security Policy (CSP) header?",
+        "options": [
+            "Cache control",
+            "Mitigate XSS by restricting resource sources",
+            "Compression",
+            "Authentication"
+        ],
+        "answer": "Mitigate XSS by restricting resource sources",
+        "explanation": "CSP defines trusted sources to reduce injection attacks."
+    },
+    {
+        "id": 54,
+        "category": "Algorithms",
+        "question": "Which technique solves optimization problems by combining solutions to subproblems?",
+        "options": [
+            "Divide and conquer",
+            "Backtracking",
+            "Dynamic programming",
+            "Greedy"
+        ],
+        "answer": "Dynamic programming",
+        "explanation": "DP uses overlapping subproblems and optimal substructure to build optimal solutions."
+    },
+    {
+        "id": 55,
+        "category": "Data Structures",
+        "question": "Which traversal visits nodes in non-decreasing order in a BST?",
+        "options": ["Preorder", "Inorder", "Postorder", "Level-order"],
+        "answer": "Inorder",
+        "explanation": "Inorder traversal of a BST yields sorted keys."
+    },
+    {
+        "id": 56,
+        "category": "System Design",
+        "question": "What is rate limiting used for?",
+        "options": [
+            "Faster responses",
+            "Prevent abuse by limiting request frequency",
+            "Data encryption",
+            "Load balancing"
+        ],
+        "answer": "Prevent abuse by limiting request frequency",
+        "explanation": "Rate limits protect services from spikes and abuse by capping requests per client."
+    },
+    {
+        "id": 57,
+        "category": "Web Development",
+        "question": "Which storage persists across tabs and sessions until cleared?",
+        "options": [
+            "sessionStorage",
+            "localStorage",
+            "Cookie (Session)",
+            "IndexedDB (Session)"
+        ],
+        "answer": "localStorage",
+        "explanation": "localStorage persists indefinitely until cleared by code or user."
+    },
+    {
+        "id": 58,
+        "category": "Algorithms",
+        "question": "Which algorithm is used for topological sorting?",
+        "options": [
+            "DFS-based ordering",
+            "BFS on weighted graph",
+            "Dijkstra",
+            "Kruskal"
+        ],
+        "answer": "DFS-based ordering",
+        "explanation": "Topological sort can be achieved via DFS finishing times or Kahn's algorithm."
+    },
+    {
+        "id": 59,
+        "category": "Data Structures",
+        "question": "Which structure is best for implementing an autocomplete system?",
+        "options": ["Stack", "Trie", "Queue", "Set"],
+        "answer": "Trie",
+        "explanation": "Tries allow efficient prefix lookup and suggestions."
+    },
+    {
+        "id": 60,
+        "category": "System Design",
+        "question": "What is the purpose of a write-ahead log (WAL)?",
+        "options": [
+            "Compression",
+            "Recovery by logging changes before applying",
+            "Indexing",
+            "Sharding"
+        ],
+        "answer": "Recovery by logging changes before applying",
+        "explanation": "WAL ensures durability by recording intent before data changes."
+    },
+    {
+        "id": 61,
+        "category": "Web Development",
+        "question": "Which status code indicates too many requests?",
+        "options": ["401", "403", "404", "429"],
+        "answer": "429",
+        "explanation": "429 Too Many Requests signals rate limiting."
+    },
+    {
+        "id": 62,
+        "category": "Algorithms",
+        "question": "What is the Master Theorem used for?",
+        "options": [
+            "Proving correctness",
+            "Solving recurrences in divide-and-conquer",
+            "Graph coloring",
+            "String matching"
+        ],
+        "answer": "Solving recurrences in divide-and-conquer",
+        "explanation": "It provides asymptotic bounds for recurrences like T(n)=aT(n/b)+f(n)."
+    },
+    {
+        "id": 63,
+        "category": "Data Structures",
+        "question": "What is the load factor in a hash table?",
+        "options": [
+            "Buckets/keys",
+            "Keys/buckets",
+            "Collisions per key",
+            "Table size"
+        ],
+        "answer": "Keys/buckets",
+        "explanation": "Load factor is the ratio of number of entries to number of buckets."
+    },
+    {
+        "id": 64,
+        "category": "System Design",
+        "question": "What is a CDN edge cache primarily optimizing?",
+        "options": [
+            "Write latency",
+            "Read latency and bandwidth",
+            "Database normalization",
+            "Authorization"
+        ],
+        "answer": "Read latency and bandwidth",
+        "explanation": "Serving content close to users reduces latency and origin bandwidth."
+    },
+    {
+        "id": 65,
+        "category": "Web Development",
+        "question": "What is the purpose of ETags?",
+        "options": [
+            "Compression",
+            "Conditional caching validation",
+            "Authentication",
+            "Encryption"
+        ],
+        "answer": "Conditional caching validation",
+        "explanation": "ETags let clients validate cached responses using If-None-Match."
+    },
+    {
+        "id": 66,
+        "category": "Algorithms",
+        "question": "Which approach is used by greedy algorithms?",
+        "options": [
+            "Explore all possibilities",
+            "Choose locally optimal at each step",
+            "Backtrack when needed",
+            "Memoize results"
+        ],
+        "answer": "Choose locally optimal at each step",
+        "explanation": "Greedy algorithms make the best local choice hoping for a global optimum."
+    },
+    {
+        "id": 67,
+        "category": "Data Structures",
+        "question": "Which operation on an array is O(n) on average?",
+        "options": [
+            "Access by index",
+            "Append amortized",
+            "Insert at beginning",
+            "Get length"
+        ],
+        "answer": "Insert at beginning",
+        "explanation": "Inserting at the start shifts all elements yielding linear time."
+    },
+    {
+        "id": 68,
+        "category": "System Design",
+        "question": "What does a reverse proxy do?",
+        "options": [
+            "Caches DNS",
+            "Forwards client requests to backend servers",
+            "Translates DB queries",
+            "Schedules tasks"
+        ],
+        "answer": "Forwards client requests to backend servers",
+        "explanation": "Reverse proxies terminate TLS, route requests, cache, and apply security policies."
+    },
+    {
+        "id": 69,
+        "category": "Web Development",
+        "question": "Which attribute on cookies helps mitigate XSS token theft?",
+        "options": ["Secure", "HttpOnly", "SameSite", "Path"],
+        "answer": "HttpOnly",
+        "explanation": "HttpOnly prevents JavaScript from reading the cookie."
+    },
+    {
+        "id": 70,
+        "category": "Algorithms",
+        "question": "What is backtracking primarily used for?",
+        "options": [
+            "Sorting",
+            "Exploring solution space with undo",
+            "Hashing",
+            "Indexing"
+        ],
+        "answer": "Exploring solution space with undo",
+        "explanation": "Backtracking incrementally builds candidates and abandons when constraints fail."
+    },
+    {
+        "id": 71,
+        "category": "Data Structures",
+        "question": "What is a bloom filter good for?",
+        "options": [
+            "Exact membership test",
+            "Probabilistic membership test with false positives",
+            "Sorting",
+            "Indexing ranges"
+        ],
+        "answer": "Probabilistic membership test with false positives",
+        "explanation": "Bloom filters are space-efficient and may return false positives but never false negatives."
+    },
+    {
+        "id": 72,
+        "category": "System Design",
+        "question": "What is leader election?",
+        "options": [
+            "Choosing a cache",
+            "Selecting a coordinator among nodes",
+            "Shard assignment",
+            "API versioning"
+        ],
+        "answer": "Selecting a coordinator among nodes",
+        "explanation": "Distributed systems elect a leader to coordinate tasks like writes or locks."
+    },
+    {
+        "id": 73,
+        "category": "Web Development",
+        "question": "What does the defer attribute on a script tag do?",
+        "options": [
+            "Blocks parsing",
+            "Executes immediately",
+            "Executes after parsing, in order",
+            "Disables caching"
+        ],
+        "answer": "Executes after parsing, in order",
+        "explanation": "Defer downloads scripts in parallel and executes after HTML parsing finishes."
+    },
+    {
+        "id": 74,
+        "category": "Algorithms",
+        "question": "What is the complexity of traversing all nodes in a binary tree?",
+        "options": ["O(log n)", "O(n)", "O(n log n)", "O(1)"],
+        "answer": "O(n)",
+        "explanation": "Each node is visited once in a traversal."
+    },
+    {
+        "id": 75,
+        "category": "Data Structures",
+        "question": "Which structure best supports range queries on numbers?",
+        "options": ["Hash map", "Segment tree", "Stack", "Queue"],
+        "answer": "Segment tree",
+        "explanation": "Segment trees aggregate values over ranges in O(log n) per query/update."
+    },
+    {
+        "id": 76,
+        "category": "System Design",
+        "question": "What is a dead letter queue (DLQ)?",
+        "options": [
+            "Backup queue",
+            "Queue for messages that cannot be processed",
+            "Priority queue",
+            "Logging queue"
+        ],
+        "answer": "Queue for messages that cannot be processed",
+        "explanation": "DLQs store failed messages for debugging and retries."
+    },
+    {
+        "id": 77,
+        "category": "Web Development",
+        "question": "Which technique reduces bundle size by splitting code into chunks?",
+        "options": [
+            "Inlining",
+            "Code splitting",
+            "Polyfilling",
+            "Minification only"
+        ],
+        "answer": "Code splitting",
+        "explanation": "Code splitting loads only the code needed for a route or feature."
+    },
+    {
+        "id": 78,
+        "category": "Algorithms",
+        "question": "What is the average time complexity of quickselect for the k-th smallest element?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+        "answer": "O(n)",
+        "explanation": "Quickselect partitions like quicksort but explores only one side on average."
+    },
+    {
+        "id": 79,
+        "category": "Data Structures",
+        "question": "Which structure efficiently supports min and max retrieval in O(1) with O(log n) updates?",
+        "options": ["Single heap", "Deque", "Min-max heap", "Set"],
+        "answer": "Min-max heap",
+        "explanation": "Min-max heaps provide O(1) find-min/max and O(log n) insert/delete."
+    },
+    {
+        "id": 80,
+        "category": "System Design",
+        "question": "What is idempotency of an API operation?",
+        "options": [
+            "Always succeeds",
+            "Multiple identical requests have same effect as one",
+            "Requires auth",
+            "Is transactional"
+        ],
+        "answer": "Multiple identical requests have same effect as one",
+        "explanation": "Idempotent operations like PUT/DELETE can be retried safely."
+    },
+    {
+        "id": 81,
+        "category": "Web Development",
+        "question": "What is the DOM event loop responsible for?",
+        "options": [
+            "Rendering only",
+            "Scheduling tasks, microtasks, and rendering",
+            "Networking",
+            "Garbage collection"
+        ],
+        "answer": "Scheduling tasks, microtasks, and rendering",
+        "explanation": "The event loop coordinates execution of callbacks, promises, and repaints."
+    },
+    {
+        "id": 82,
+        "category": "Algorithms",
+        "question": "What is the worst-case time complexity of Quick Sort?",
+        "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+        "answer": "O(n^2)",
+        "explanation": "Occurs when pivot choices lead to highly unbalanced partitions."
+    },
+    {
+        "id": 83,
+        "category": "Data Structures",
+        "question": "Which technique resolves hash collisions by storing lists in buckets?",
+        "options": [
+            "Open addressing",
+            "Chaining",
+            "Double hashing",
+            "Rehashing only"
+        ],
+        "answer": "Chaining",
+        "explanation": "Each bucket holds a linked list (or vector) of entries mapping to that index."
+    },
+    {
+        "id": 84,
+        "category": "System Design",
+        "question": "What is vertical scaling?",
+        "options": [
+            "Adding more servers",
+            "Adding resources to a single server",
+            "Adding more databases",
+            "Caching more"
+        ],
+        "answer": "Adding resources to a single server",
+        "explanation": "Vertical scaling increases CPU/RAM on one machine."
+    },
+    {
+        "id": 85,
+        "category": "Web Development",
+        "question": "Which tag improves accessibility by labeling a form control?",
+        "options": ["div", "label", "span", "section"],
+        "answer": "label",
+        "explanation": "A label associated with an input improves accessibility and click targets."
+    },
+    {
+        "id": 86,
+        "category": "Algorithms",
+        "question": "Which algorithm finds all-pairs shortest paths on a dense graph?",
+        "options": ["Floyd–Warshall", "Prim", "Kruskal", "KMP"],
+        "answer": "Floyd–Warshall",
+        "explanation": "Floyd–Warshall computes APSP in O(n^3) using dynamic programming."
+    },
+    {
+        "id": 87,
+        "category": "Data Structures",
+        "question": "What does a deque support?",
+        "options": [
+            "Insert/remove at one end",
+            "Insert/remove at both ends",
+            "Random access in O(1)",
+            "Sorting in O(1)"
+        ],
+        "answer": "Insert/remove at both ends",
+        "explanation": "Double-ended queues support push/pop from front and back efficiently."
+    },
+    {
+        "id": 88,
+        "category": "System Design",
+        "question": "What is database replication lag?",
+        "options": [
+            "Write amplification",
+            "Delay between primary write and replica apply",
+            "Cache miss",
+            "Network jitter"
+        ],
+        "answer": "Delay between primary write and replica apply",
+        "explanation": "Lag can cause stale reads on replicas and must be accounted for."
+    },
+    {
+        "id": 89,
+        "category": "Web Development",
+        "question": "Which HTTP method is used to partially update a resource?",
+        "options": ["GET", "PUT", "PATCH", "DELETE"],
+        "answer": "PATCH",
+        "explanation": "PATCH applies partial modifications to a resource."
+    },
+    {
+        "id": 90,
+        "category": "Algorithms",
+        "question": "What is amortized analysis used for?",
+        "options": [
+            "Average over random inputs",
+            "Average over sequence of operations",
+            "Worst-case bound",
+            "Probabilistic bound only"
+        ],
+        "answer": "Average over sequence of operations",
+        "explanation": "Amortized analysis averages the cost of expensive occasional operations."
+    },
+    {
+        "id": 91,
+        "category": "Data Structures",
+        "question": "Which tree is designed to keep data sorted and balanced on disk?",
+        "options": ["AVL", "Red-Black", "B-Tree", "Splay"],
+        "answer": "B-Tree",
+        "explanation": "B-Trees have high fan-out to minimize disk I/O, used in databases and filesystems."
+    },
+    {
+        "id": 92,
+        "category": "System Design",
+        "question": "What is a saga pattern in distributed systems?",
+        "options": [
+            "Locking protocol",
+            "Sequence of local transactions with compensations",
+            "Two-phase commit",
+            "Heartbeat protocol"
+        ],
+        "answer": "Sequence of local transactions with compensations",
+        "explanation": "Sagas split a distributed transaction into steps with compensating actions on failure."
+    },
+    {
+        "id": 93,
+        "category": "Web Development",
+        "question": "Which header carries a bearer token for API auth?",
+        "options": ["Authorization", "Authenticate", "X-API-Key", "Proxy-Auth"],
+        "answer": "Authorization",
+        "explanation": "The Authorization: Bearer <token> header conveys access tokens."
+    },
+    {
+        "id": 94,
+        "category": "Algorithms",
+        "question": "Which algorithm detects negative cycles and shortest paths with negative weights?",
+        "options": ["Dijkstra", "Bellman–Ford", "Prim", "Kruskal"],
+        "answer": "Bellman–Ford",
+        "explanation": "Bellman–Ford relaxes edges repeatedly and can detect negative cycles."
+    },
+    {
+        "id": 95,
+        "category": "Data Structures",
+        "question": "What is path compression in union-find?",
+        "options": [
+            "Balancing heaps",
+            "Shortening find paths by making nodes point to root",
+            "Rehashing",
+            "Tree rotation"
+        ],
+        "answer": "Shortening find paths by making nodes point to root",
+        "explanation": "Path compression flattens the structure, making future finds nearly constant."
+    },
+    {
+        "id": 96,
+        "category": "System Design",
+        "question": "What does autoscaling do?",
+        "options": [
+            "Scales databases only",
+            "Adjusts compute resources based on load",
+            "Optimizes SQL queries",
+            "Compresses assets"
+        ],
+        "answer": "Adjusts compute resources based on load",
+        "explanation": "Autoscaling adds/removes instances based on metrics to match demand."
+    },
+    {
+        "id": 97,
+        "category": "Web Development",
+        "question": "What is prefetching used for in web apps?",
+        "options": [
+            "Eagerly fetch likely next resources",
+            "Compress images",
+            "Inline CSS",
+            "Avoid caching"
+        ],
+        "answer": "Eagerly fetch likely next resources",
+        "explanation": "Prefetch hints fetch assets likely needed soon to improve perceived performance."
+    },
+    {
+        "id": 98,
+        "category": "Algorithms",
+        "question": "What is the space complexity of DFS using recursion on a graph?",
+        "options": ["O(1)", "O(V)", "O(E)", "O(log V)"],
+        "answer": "O(V)",
+        "explanation": "Call stack can grow to O(V) in the worst case."
+    },
+    {
+        "id": 99,
+        "category": "Data Structures",
+        "question": "Which data structure supports median retrieval in O(1) with two heaps?",
+        "options": [
+            "Single min-heap",
+            "Two heaps (max-heap and min-heap)",
+            "Queue",
+            "Stack"
+        ],
+        "answer": "Two heaps (max-heap and min-heap)",
+        "explanation": "Maintain lower half in a max-heap and upper half in a min-heap to get median quickly."
+    },
+    {
+        "id": 100,
+        "category": "System Design",
+        "question": "What is a read-through cache?",
+        "options": [
+            "Client writes then reads",
+            "Application reads from cache, loads from DB on miss",
+            "Writes skip DB",
+            "Always stale reads"
+        ],
+        "answer": "Application reads from cache, loads from DB on miss",
+        "explanation": "On a cache miss, data is fetched from the data store and populated into the cache before returning."
+    }
 ]
