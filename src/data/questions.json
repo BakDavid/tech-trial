@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "category": "Data Structures",
+    "question": "What is the time complexity of searching in a balanced binary search tree?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answer": "O(log n)",
+    "explanation": "In a balanced BST, the height is log n, so searching takes O(log n) time as we eliminate half the tree at each step."
+  },
+  {
+    "id": 2,
+    "category": "Data Structures",
+    "question": "Which data structure uses LIFO (Last In, First Out) principle?",
+    "options": ["Queue", "Stack", "Array", "Linked List"],
+    "answer": "Stack",
+    "explanation": "Stack follows LIFO principle where the last element added is the first one to be removed."
+  },
+  {
+    "id": 3,
+    "category": "Algorithms",
+    "question": "What is the best case time complexity of Quick Sort?",
+    "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+    "answer": "O(n log n)",
+    "explanation": "Quick Sort has O(n log n) best and average case complexity when the pivot divides the array into roughly equal halves."
+  },
+  {
+    "id": 4,
+    "category": "System Design",
+    "question": "What is horizontal scaling?",
+    "options": ["Adding more power to existing servers", "Adding more servers to the pool", "Increasing database size", "Optimizing code performance"],
+    "answer": "Adding more servers to the pool",
+    "explanation": "Horizontal scaling means adding more servers to handle increased load, as opposed to vertical scaling which adds more power to existing servers."
+  },
+  {
+    "id": 5,
+    "category": "Web Development",
+    "question": "What does REST stand for?",
+    "options": ["Representational State Transfer", "Remote State Transfer", "Reactive State Transfer", "Relational State Transfer"],
+    "answer": "Representational State Transfer",
+    "explanation": "REST (Representational State Transfer) is an architectural style for designing networked applications."
+  },
+  {
+    "id": 6,
+    "category": "Data Structures",
+    "question": "What is the space complexity of a hash table?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+    "answer": "O(n)",
+    "explanation": "Hash tables require O(n) space to store n key-value pairs."
+  },
+  {
+    "id": 7,
+    "category": "Algorithms",
+    "question": "Which algorithm is best for finding the shortest path in a weighted graph?",
+    "options": ["BFS", "DFS", "Dijkstra's Algorithm", "Binary Search"],
+    "answer": "Dijkstra's Algorithm",
+    "explanation": "Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a weighted graph with non-negative weights."
+  },
+  {
+    "id": 8,
+    "category": "System Design",
+    "question": "What is a CDN (Content Delivery Network)?",
+    "options": ["A type of database", "A distributed network of servers", "A programming framework", "A security protocol"],
+    "answer": "A distributed network of servers",
+    "explanation": "A CDN is a geographically distributed network of servers that deliver content to users from the nearest location to improve performance."
+  },
+  {
+    "id": 9,
+    "category": "Web Development",
+    "question": "What is the purpose of CORS (Cross-Origin Resource Sharing)?",
+    "options": ["To encrypt data", "To allow cross-origin requests", "To compress files", "To cache resources"],
+    "answer": "To allow cross-origin requests",
+    "explanation": "CORS is a security feature that allows web pages to make requests to a different domain than the one serving the web page."
+  },
+  {
+    "id": 10,
+    "category": "Data Structures",
+    "question": "What is the main advantage of a linked list over an array?",
+    "options": ["Faster access time", "Dynamic size", "Less memory usage", "Better cache performance"],
+    "answer": "Dynamic size",
+    "explanation": "Linked lists can grow or shrink during runtime, while arrays have a fixed size in most languages."
+  },
+  {
+    "id": 11,
+    "category": "Algorithms",
+    "question": "What is the time complexity of Merge Sort?",
+    "options": ["O(n)", "O(n log n)", "O(n²)", "O(2^n)"],
+    "answer": "O(n log n)",
+    "explanation": "Merge Sort consistently performs in O(n log n) time for all cases (best, average, and worst)."
+  },
+  {
+    "id": 12,
+    "category": "System Design",
+    "question": "What is database sharding?",
+    "options": ["Creating database backups", "Splitting data across multiple databases", "Optimizing queries", "Indexing tables"],
+    "answer": "Splitting data across multiple databases",
+    "explanation": "Sharding is a database partitioning technique that splits large databases into smaller, more manageable pieces across multiple servers."
+  }
+]
