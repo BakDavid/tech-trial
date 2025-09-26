@@ -1378,2315 +1378,269 @@
     {
         "id": 123,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 form validation?",
+        "question": "What does the 'this' keyword refer to in JavaScript inside a regular function?",
         "options": [
-            "To make forms look better",
-            "To validate user input on the client side",
-            "To create animations",
-            "To add colors"
+            "It always refers to the global object",
+            "It refers to the object that owns the function",
+            "It always refers to the window object",
+            "It refers to the last declared variable"
         ],
-        "answer": "To validate user input on the client side",
-        "explanation": "HTML5 form validation provides built-in validation for common input types and patterns without JavaScript."
+        "answer": "It refers to the object that owns the function",
+        "explanation": "In a regular function, 'this' refers to the object that calls the function. If not in strict mode and no object is specified, it defaults to the global object (window in browsers)."
     },
     {
         "id": 124,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 placeholder attribute?",
+        "question": "What is the difference between inline, inline-block, and block elements in CSS?",
         "options": [
-            "To add colors to inputs",
-            "To provide hints about expected input format",
-            "To create animations",
-            "To validate input"
+            "They all behave the same way",
+            "Inline does not start on a new line, block starts on a new line, inline-block behaves like inline but allows setting width/height",
+            "Block elements cannot contain text",
+            "Inline-block is identical to block"
         ],
-        "answer": "To provide hints about expected input format",
-        "explanation": "The placeholder attribute provides a hint that describes the expected value of an input field."
+        "answer": "Inline does not start on a new line, block starts on a new line, inline-block behaves like inline but allows setting width/height",
+        "explanation": "Inline elements flow with text, block elements take up full width and start on a new line, and inline-block allows size control while staying inline."
     },
     {
         "id": 125,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 required attribute?",
-        "options": [
-            "To add colors to inputs",
-            "To make an input field mandatory",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To make an input field mandatory",
-        "explanation": "The required attribute specifies that an input field must be filled out before submitting the form."
+        "question": "Which HTTP status code means 'Not Found'?",
+        "options": ["200", "301", "404", "500"],
+        "answer": "404",
+        "explanation": "The 404 status code indicates that the requested resource could not be found on the server."
     },
     {
         "id": 126,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 pattern attribute?",
+        "question": "What is a closure in JavaScript?",
         "options": [
-            "To add colors to inputs",
-            "To specify a regular expression for input validation",
-            "To create animations",
-            "To add validation"
+            "A way to close browser windows",
+            "A function bundled together with its lexical environment",
+            "A CSS technique for hiding elements",
+            "A debugging tool"
         ],
-        "answer": "To specify a regular expression for input validation",
-        "explanation": "The pattern attribute specifies a regular expression that the input's value must match to be valid."
+        "answer": "A function bundled together with its lexical environment",
+        "explanation": "Closures are functions that 'remember' the scope in which they were created, allowing access to variables outside their immediate scope."
     },
     {
         "id": 127,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 min and max attributes?",
+        "question": "What is the difference between == and === in JavaScript?",
         "options": [
-            "To add colors to inputs",
-            "To specify minimum and maximum values for numeric inputs",
-            "To create animations",
-            "To add validation"
+            "There is no difference",
+            "== checks both value and type, === checks only value",
+            "== checks only value, === checks both value and type",
+            "=== is used only in loops"
         ],
-        "answer": "To specify minimum and maximum values for numeric inputs",
-        "explanation": "The min and max attributes specify the minimum and maximum values for numeric input types."
+        "answer": "== checks only value, === checks both value and type",
+        "explanation": "== performs type coercion when comparing values, whereas === compares both type and value without coercion."
     },
     {
         "id": 128,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 step attribute?",
+        "question": "What is the main difference between relative and absolute positioning in CSS?",
         "options": [
-            "To add colors to inputs",
-            "To specify the legal number intervals for numeric inputs",
-            "To create animations",
-            "To add validation"
+            "Relative is always fixed, absolute is always fluid",
+            "Relative positions the element relative to itself, absolute positions relative to the nearest positioned ancestor",
+            "Absolute positioning works only with flexbox",
+            "Relative is used for animations only"
         ],
-        "answer": "To specify the legal number intervals for numeric inputs",
-        "explanation": "The step attribute specifies the legal number intervals for numeric input types."
+        "answer": "Relative positions the element relative to itself, absolute positions relative to the nearest positioned ancestor",
+        "explanation": "Relative shifts the element based on its normal position, while absolute removes it from the normal flow and positions it relative to the nearest positioned ancestor."
     },
     {
         "id": 129,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 autocomplete attribute?",
+        "question": "Which of the following best describes responsive design?",
         "options": [
-            "To add colors to inputs",
-            "To enable or disable autocomplete for form fields",
-            "To create animations",
-            "To add validation"
+            "Creating separate websites for mobile and desktop",
+            "Using CSS and flexible layouts to adapt to different screen sizes",
+            "Designing only for desktop screens",
+            "Making websites faster"
         ],
-        "answer": "To enable or disable autocomplete for form fields",
-        "explanation": "The autocomplete attribute specifies whether a form field should have autocomplete enabled or disabled."
+        "answer": "Using CSS and flexible layouts to adapt to different screen sizes",
+        "explanation": "Responsive design ensures a website adjusts gracefully across devices using techniques like media queries, fluid grids, and flexible images."
     },
     {
         "id": 130,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 autofocus attribute?",
+        "question": "What is the purpose of the defer attribute in a script tag?",
         "options": [
-            "To add colors to inputs",
-            "To automatically focus an input field when the page loads",
-            "To create animations",
-            "To add validation"
+            "To delay CSS loading",
+            "To prevent the script from running",
+            "To execute the script after the HTML document has been parsed",
+            "To execute the script before HTML parsing starts"
         ],
-        "answer": "To automatically focus an input field when the page loads",
-        "explanation": "The autofocus attribute specifies that an input field should automatically get focus when the page loads."
+        "answer": "To execute the script after the HTML document has been parsed",
+        "explanation": "The defer attribute ensures scripts run only after the DOM has been fully parsed, improving load performance."
     },
     {
         "id": 131,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 disabled attribute?",
+        "question": "What does the CSS property 'z-index' control?",
         "options": [
-            "To add colors to inputs",
-            "To disable an input field",
-            "To create animations",
-            "To add validation"
+            "The transparency of an element",
+            "The stacking order of elements",
+            "The zoom level of elements",
+            "The alignment of elements"
         ],
-        "answer": "To disable an input field",
-        "explanation": "The disabled attribute specifies that an input field should be disabled and cannot be used."
+        "answer": "The stacking order of elements",
+        "explanation": "z-index controls which elements appear on top of others when they overlap. Higher values appear in front."
     },
     {
         "id": 132,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 readonly attribute?",
+        "question": "What is the difference between null and undefined in JavaScript?",
         "options": [
-            "To add colors to inputs",
-            "To make an input field read-only",
-            "To create animations",
-            "To add validation"
+            "Null means no value, undefined means a variable is declared but not assigned a value",
+            "They are exactly the same",
+            "Undefined means zero, null means empty string",
+            "Null is automatically assigned to all variables"
         ],
-        "answer": "To make an input field read-only",
-        "explanation": "The readonly attribute specifies that an input field is read-only and cannot be modified."
+        "answer": "Null means no value, undefined means a variable is declared but not assigned a value",
+        "explanation": "undefined is the default state of uninitialized variables, while null is an assignment value representing 'no value'."
     },
     {
         "id": 133,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 multiple attribute?",
+        "question": "What is hoisting in JavaScript?",
         "options": [
-            "To add colors to inputs",
-            "To allow multiple values for file inputs",
-            "To create animations",
-            "To add validation"
+            "Moving variables and functions to the top of the scope before code execution",
+            "A way of optimizing loops",
+            "An ES6 feature for modules",
+            "A CSS technique"
         ],
-        "answer": "To allow multiple values for file inputs",
-        "explanation": "The multiple attribute specifies that the user can enter more than one value in an input field."
+        "answer": "Moving variables and functions to the top of the scope before code execution",
+        "explanation": "Hoisting allows variable and function declarations to be moved to the top of their scope during the compilation phase, though only declarations are hoisted, not initializations."
     },
     {
         "id": 134,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 accept attribute?",
+        "question": "Which variables are hoisted with their initial value in JavaScript?",
         "options": [
-            "To add colors to inputs",
-            "To specify the types of files that the server accepts",
-            "To create animations",
-            "To add validation"
+            "var variables",
+            "let variables",
+            "const variables",
+            "None, only function declarations are hoisted with their full definition"
         ],
-        "answer": "To specify the types of files that the server accepts",
-        "explanation": "The accept attribute specifies the types of files that the server accepts for file uploads."
+        "answer": "None, only function declarations are hoisted with their full definition",
+        "explanation": "Variables declared with var, let, and const are hoisted but only function declarations are hoisted with their complete definition. var variables are hoisted as 'undefined'."
     },
     {
         "id": 135,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 capture attribute?",
+        "question": "What is Cross-Site Scripting (XSS)?",
         "options": [
-            "To add colors to inputs",
-            "To specify that the file input should capture media directly",
-            "To create animations",
-            "To add validation"
+            "Injecting malicious scripts into trusted websites",
+            "Intercepting network traffic",
+            "A method to encrypt data",
+            "A way to validate forms"
         ],
-        "answer": "To specify that the file input should capture media directly",
-        "explanation": "The capture attribute specifies that the file input should capture media directly from the device."
+        "answer": "Injecting malicious scripts into trusted websites",
+        "explanation": "XSS allows attackers to inject malicious client-side code into web pages viewed by other users, often used to steal cookies or session data."
     },
     {
         "id": 136,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 form attribute?",
+        "question": "What is Cross-Site Request Forgery (CSRF)?",
         "options": [
-            "To add colors to inputs",
-            "To specify which form an input belongs to",
-            "To create animations",
-            "To add validation"
+            "Tricking a user into executing unwanted actions on a web application where they are authenticated",
+            "Intercepting HTTP requests",
+            "Injecting SQL statements",
+            "Bypassing CORS policies"
         ],
-        "answer": "To specify which form an input belongs to",
-        "explanation": "The form attribute specifies which form an input element belongs to."
+        "answer": "Tricking a user into executing unwanted actions on a web application where they are authenticated",
+        "explanation": "CSRF forces authenticated users to submit a request they didn’t intend, often causing unwanted changes like transfers or updates."
     },
     {
         "id": 137,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 formaction attribute?",
+        "question": "Which of the following is NOT part of the OWASP Top 10 vulnerabilities?",
         "options": [
-            "To add colors to inputs",
-            "To specify where to send the form data when submitted",
-            "To create animations",
-            "To add validation"
+            "Injection",
+            "Broken Authentication",
+            "Sensitive Data Exposure",
+            "Correctly implemented HTTPS"
         ],
-        "answer": "To specify where to send the form data when submitted",
-        "explanation": "The formaction attribute specifies where to send the form data when a form is submitted."
+        "answer": "Correctly implemented HTTPS",
+        "explanation": "The OWASP Top 10 lists common vulnerabilities like injection, authentication issues, and sensitive data exposure. Secure HTTPS is a solution, not a vulnerability."
     },
     {
         "id": 138,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 formenctype attribute?",
+        "question": "What is SQL Injection?",
         "options": [
-            "To add colors to inputs",
-            "To specify how the form data should be encoded when submitted",
-            "To create animations",
-            "To add validation"
+            "A method to optimize database queries",
+            "Inserting malicious SQL queries through user inputs",
+            "Encrypting database queries",
+            "A way to backup databases"
         ],
-        "answer": "To specify how the form data should be encoded when submitted",
-        "explanation": "The formenctype attribute specifies how the form data should be encoded when submitting to the server."
+        "answer": "Inserting malicious SQL queries through user inputs",
+        "explanation": "SQL Injection occurs when attackers manipulate input fields to run unauthorized SQL commands, potentially exposing or altering data."
     },
     {
         "id": 139,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 formmethod attribute?",
+        "question": "How can Content Security Policy (CSP) help improve security?",
         "options": [
-            "To add colors to inputs",
-            "To specify the HTTP method for sending form data",
-            "To create animations",
-            "To add validation"
+            "By speeding up website rendering",
+            "By restricting which resources (scripts, styles, etc.) can be loaded",
+            "By encrypting all data automatically",
+            "By blocking SQL queries"
         ],
-        "answer": "To specify the HTTP method for sending form data",
-        "explanation": "The formmethod attribute specifies the HTTP method for sending form data."
+        "answer": "By restricting which resources (scripts, styles, etc.) can be loaded",
+        "explanation": "CSP allows developers to define trusted sources for content, helping mitigate XSS attacks by blocking unauthorized scripts."
     },
     {
         "id": 140,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 formnovalidate attribute?",
+        "question": "What is the difference between synchronous and asynchronous JavaScript?",
         "options": [
-            "To add colors to inputs",
-            "To specify that the form should not be validated when submitted",
-            "To create animations",
-            "To add validation"
+            "Synchronous executes tasks one after another, asynchronous allows tasks to run without blocking",
+            "Synchronous is faster, asynchronous is slower",
+            "Asynchronous works only with databases",
+            "There is no difference"
         ],
-        "answer": "To specify that the form should not be validated when submitted",
-        "explanation": "The formnovalidate attribute specifies that the form should not be validated when submitted."
+        "answer": "Synchronous executes tasks one after another, asynchronous allows tasks to run without blocking",
+        "explanation": "Synchronous code blocks further execution until finished, while asynchronous operations (like setTimeout, fetch) allow non-blocking execution."
     },
     {
         "id": 141,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 formtarget attribute?",
+        "question": "What is the Same-Origin Policy in web browsers?",
         "options": [
-            "To add colors to inputs",
-            "To specify where to display the response after submitting the form",
-            "To create animations",
-            "To add validation"
+            "A policy that allows any domain to access resources",
+            "A restriction preventing scripts from one origin from interacting with resources from another origin",
+            "A way to speed up loading by caching",
+            "A rule for CSS inheritance"
         ],
-        "answer": "To specify where to display the response after submitting the form",
-        "explanation": "The formtarget attribute specifies where to display the response after submitting the form."
+        "answer": "A restriction preventing scripts from one origin from interacting with resources from another origin",
+        "explanation": "Same-Origin Policy is a browser security measure that prevents malicious sites from reading data from another site without permission."
     },
     {
         "id": 142,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 list attribute?",
+        "question": "What does CORS stand for and why is it important?",
         "options": [
-            "To add colors to inputs",
-            "To specify a datalist element that contains pre-defined options",
-            "To create animations",
-            "To add validation"
+            "Cross-Origin Resource Sharing, allows or restricts resource requests between different origins",
+            "Cross-Origin Request Security, encrypts data across origins",
+            "Client-Origin Resource Setup, caches data",
+            "Centralized Origin Request System, handles DNS"
         ],
-        "answer": "To specify a datalist element that contains pre-defined options",
-        "explanation": "The list attribute specifies a datalist element that contains pre-defined options for an input field."
+        "answer": "Cross-Origin Resource Sharing, allows or restricts resource requests between different origins",
+        "explanation": "CORS defines how browsers and servers interact for requests made across different domains, improving security and controlling resource access."
     },
     {
         "id": 143,
         "category": "Web Development",
-        "question": "What is the purpose of the HTML5 datalist element?",
-        "options": [
-            "To add colors to inputs",
-            "To provide a list of pre-defined options for input fields",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To provide a list of pre-defined options for input fields",
-        "explanation": "The datalist element provides a list of pre-defined options for input fields."
-    },
-    {
-        "id": 144,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 output element?",
-        "options": [
-            "To add colors to inputs",
-            "To display the result of a calculation or user action",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display the result of a calculation or user action",
-        "explanation": "The output element displays the result of a calculation or user action."
-    },
-    {
-        "id": 145,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 progress element?",
-        "options": [
-            "To add colors to inputs",
-            "To display the progress of a task",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display the progress of a task",
-        "explanation": "The progress element displays the progress of a task."
-    },
-    {
-        "id": 146,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 meter element?",
-        "options": [
-            "To add colors to inputs",
-            "To display a scalar measurement within a known range",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display a scalar measurement within a known range",
-        "explanation": "The meter element displays a scalar measurement within a known range."
-    },
-    {
-        "id": 147,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 details element?",
-        "options": [
-            "To add colors to inputs",
-            "To create a disclosure widget that can be toggled",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To create a disclosure widget that can be toggled",
-        "explanation": "The details element creates a disclosure widget that can be toggled to show or hide content."
-    },
-    {
-        "id": 148,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 summary element?",
-        "options": [
-            "To add colors to inputs",
-            "To provide a summary or caption for a details element",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To provide a summary or caption for a details element",
-        "explanation": "The summary element provides a summary or caption for a details element."
-    },
-    {
-        "id": 149,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 mark element?",
-        "options": [
-            "To add colors to inputs",
-            "To highlight text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To highlight text",
-        "explanation": "The mark element highlights text for reference purposes."
-    },
-    {
-        "id": 150,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 time element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a specific time or date",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a specific time or date",
-        "explanation": "The time element represents a specific time or date in a machine-readable format."
-    },
-    {
-        "id": 151,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 figure element?",
-        "options": [
-            "To add colors to inputs",
-            "To group related content like images and captions",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To group related content like images and captions",
-        "explanation": "The figure element groups related content like images, diagrams, or code blocks with their captions."
-    },
-    {
-        "id": 152,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 figcaption element?",
-        "options": [
-            "To add colors to inputs",
-            "To provide a caption for a figure element",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To provide a caption for a figure element",
-        "explanation": "The figcaption element provides a caption for a figure element."
-    },
-    {
-        "id": 153,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 aside element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent content that is tangentially related to the main content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent content that is tangentially related to the main content",
-        "explanation": "The aside element represents content that is tangentially related to the main content, like sidebars or callouts."
-    },
-    {
-        "id": 154,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 nav element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a section of navigation links",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a section of navigation links",
-        "explanation": "The nav element represents a section of navigation links."
-    },
-    {
-        "id": 155,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 main element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent the main content of the document",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent the main content of the document",
-        "explanation": "The main element represents the main content of the document, excluding headers, footers, and navigation."
-    },
-    {
-        "id": 156,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 section element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a thematic grouping of content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a thematic grouping of content",
-        "explanation": "The section element represents a thematic grouping of content, typically with a heading."
-    },
-    {
-        "id": 157,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 article element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a self-contained piece of content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a self-contained piece of content",
-        "explanation": "The article element represents a self-contained piece of content that could be distributed independently."
-    },
-    {
-        "id": 158,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 header element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent introductory content or navigational aids",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent introductory content or navigational aids",
-        "explanation": "The header element represents introductory content or navigational aids for a section or the entire page."
-    },
-    {
-        "id": 159,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 footer element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent footer content for a section or the entire page",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent footer content for a section or the entire page",
-        "explanation": "The footer element represents footer content for a section or the entire page."
-    },
-    {
-        "id": 160,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 address element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent contact information",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent contact information",
-        "explanation": "The address element represents contact information for the nearest article or body element ancestor."
-    },
-    {
-        "id": 161,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 cite element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent the title of a work",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent the title of a work",
-        "explanation": "The cite element represents the title of a work, such as a book, movie, or song."
-    },
-    {
-        "id": 162,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 q element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a short inline quotation",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a short inline quotation",
-        "explanation": "The q element represents a short inline quotation."
-    },
-    {
-        "id": 163,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 blockquote element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a block quotation",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a block quotation",
-        "explanation": "The blockquote element represents a block quotation."
-    },
-    {
-        "id": 164,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 code element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a fragment of computer code",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a fragment of computer code",
-        "explanation": "The code element represents a fragment of computer code."
-    },
-    {
-        "id": 165,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 pre element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent preformatted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent preformatted text",
-        "explanation": "The pre element represents preformatted text, preserving whitespace and line breaks."
-    },
-    {
-        "id": 166,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 samp element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent sample output from a computer program",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent sample output from a computer program",
-        "explanation": "The samp element represents sample output from a computer program."
-    },
-    {
-        "id": 167,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 kbd element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent user input, typically keyboard input",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent user input, typically keyboard input",
-        "explanation": "The kbd element represents user input, typically keyboard input."
-    },
-    {
-        "id": 168,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 var element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a variable in a mathematical expression or programming context",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a variable in a mathematical expression or programming context",
-        "explanation": "The var element represents a variable in a mathematical expression or programming context."
-    },
-    {
-        "id": 169,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 sub element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent subscript text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent subscript text",
-        "explanation": "The sub element represents subscript text."
-    },
-    {
-        "id": 170,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 sup element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent superscript text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent superscript text",
-        "explanation": "The sup element represents superscript text."
-    },
-    {
-        "id": 171,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 small element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent small print or fine print",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent small print or fine print",
-        "explanation": "The small element represents small print or fine print."
-    },
-    {
-        "id": 172,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 del element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent deleted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent deleted text",
-        "explanation": "The del element represents deleted text."
-    },
-    {
-        "id": 173,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 ins element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent inserted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent inserted text",
-        "explanation": "The ins element represents inserted text."
-    },
-    {
-        "id": 174,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 dfn element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a definition term",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a definition term",
-        "explanation": "The dfn element represents a definition term."
-    },
-    {
-        "id": 175,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 abbr element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent an abbreviation or acronym",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent an abbreviation or acronym",
-        "explanation": "The abbr element represents an abbreviation or acronym."
-    },
-    {
-        "id": 176,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 ruby element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent ruby annotations",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent ruby annotations",
-        "explanation": "The ruby element represents ruby annotations, used for East Asian typography."
-    },
-    {
-        "id": 177,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 rt element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent ruby text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent ruby text",
-        "explanation": "The rt element represents ruby text, used for East Asian typography."
-    },
-    {
-        "id": 178,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 rp element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent ruby parentheses",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent ruby parentheses",
-        "explanation": "The rp element represents ruby parentheses, used for East Asian typography."
-    },
-    {
-        "id": 179,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 bdi element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent text that is isolated from its surroundings for bidirectional text formatting",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent text that is isolated from its surroundings for bidirectional text formatting",
-        "explanation": "The bdi element represents text that is isolated from its surroundings for bidirectional text formatting."
-    },
-    {
-        "id": 180,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 bdo element?",
-        "options": [
-            "To add colors to inputs",
-            "To override the current text direction",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To override the current text direction",
-        "explanation": "The bdo element overrides the current text direction."
-    },
-    {
-        "id": 181,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 wbr element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a word break opportunity",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a word break opportunity",
-        "explanation": "The wbr element represents a word break opportunity, allowing the browser to break a line at that point if needed."
-    },
-    {
-        "id": 182,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 dialog element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a dialog box or window",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a dialog box or window",
-        "explanation": "The dialog element represents a dialog box or window that can be shown or hidden."
-    },
-    {
-        "id": 183,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 menu element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a list of commands or options",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a list of commands or options",
-        "explanation": "The menu element represents a list of commands or options."
-    },
-    {
-        "id": 184,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 menuitem element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a command that can be invoked from a menu",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a command that can be invoked from a menu",
-        "explanation": "The menuitem element represents a command that can be invoked from a menu."
-    },
-    {
-        "id": 185,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 command element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a command that can be invoked",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a command that can be invoked",
-        "explanation": "The command element represents a command that can be invoked."
-    },
-    {
-        "id": 186,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 keygen element?",
-        "options": [
-            "To add colors to inputs",
-            "To generate a key pair for form submission",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To generate a key pair for form submission",
-        "explanation": "The keygen element generates a key pair for form submission."
-    },
-    {
-        "id": 187,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 output element?",
-        "options": [
-            "To add colors to inputs",
-            "To display the result of a calculation or user action",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display the result of a calculation or user action",
-        "explanation": "The output element displays the result of a calculation or user action."
-    },
-    {
-        "id": 188,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 progress element?",
-        "options": [
-            "To add colors to inputs",
-            "To display the progress of a task",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display the progress of a task",
-        "explanation": "The progress element displays the progress of a task."
-    },
-    {
-        "id": 189,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 meter element?",
-        "options": [
-            "To add colors to inputs",
-            "To display a scalar measurement within a known range",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display a scalar measurement within a known range",
-        "explanation": "The meter element displays a scalar measurement within a known range."
-    },
-    {
-        "id": 190,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 details element?",
-        "options": [
-            "To add colors to inputs",
-            "To create a disclosure widget that can be toggled",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To create a disclosure widget that can be toggled",
-        "explanation": "The details element creates a disclosure widget that can be toggled to show or hide content."
-    },
-    {
-        "id": 191,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 summary element?",
-        "options": [
-            "To add colors to inputs",
-            "To provide a summary or caption for a details element",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To provide a summary or caption for a details element",
-        "explanation": "The summary element provides a summary or caption for a details element."
-    },
-    {
-        "id": 192,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 mark element?",
-        "options": [
-            "To add colors to inputs",
-            "To highlight text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To highlight text",
-        "explanation": "The mark element highlights text for reference purposes."
-    },
-    {
-        "id": 193,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 time element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a specific time or date",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a specific time or date",
-        "explanation": "The time element represents a specific time or date in a machine-readable format."
-    },
-    {
-        "id": 194,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 figure element?",
-        "options": [
-            "To add colors to inputs",
-            "To group related content like images and captions",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To group related content like images and captions",
-        "explanation": "The figure element groups related content like images, diagrams, or code blocks with their captions."
-    },
-    {
-        "id": 195,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 figcaption element?",
-        "options": [
-            "To add colors to inputs",
-            "To provide a caption for a figure element",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To provide a caption for a figure element",
-        "explanation": "The figcaption element provides a caption for a figure element."
-    },
-    {
-        "id": 196,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 aside element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent content that is tangentially related to the main content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent content that is tangentially related to the main content",
-        "explanation": "The aside element represents content that is tangentially related to the main content, like sidebars or callouts."
-    },
-    {
-        "id": 197,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 nav element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a section of navigation links",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a section of navigation links",
-        "explanation": "The nav element represents a section of navigation links."
-    },
-    {
-        "id": 198,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 main element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent the main content of the document",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent the main content of the document",
-        "explanation": "The main element represents the main content of the document, excluding headers, footers, and navigation."
-    },
-    {
-        "id": 199,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 section element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a thematic grouping of content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a thematic grouping of content",
-        "explanation": "The section element represents a thematic grouping of content, typically with a heading."
-    },
-    {
-        "id": 200,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 article element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a self-contained piece of content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a self-contained piece of content",
-        "explanation": "The article element represents a self-contained piece of content that could be distributed independently."
-    },
-    {
-        "id": 201,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 header element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent introductory content or navigational aids",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent introductory content or navigational aids",
-        "explanation": "The header element represents introductory content or navigational aids for a section or the entire page."
-    },
-    {
-        "id": 202,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 footer element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent footer content for a section or the entire page",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent footer content for a section or the entire page",
-        "explanation": "The footer element represents footer content for a section or the entire page."
-    },
-    {
-        "id": 203,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 address element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent contact information",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent contact information",
-        "explanation": "The address element represents contact information for the nearest article or body element ancestor."
-    },
-    {
-        "id": 204,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 cite element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent the title of a work",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent the title of a work",
-        "explanation": "The cite element represents the title of a work, such as a book, movie, or song."
-    },
-    {
-        "id": 205,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 q element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a short inline quotation",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a short inline quotation",
-        "explanation": "The q element represents a short inline quotation."
-    },
-    {
-        "id": 206,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 blockquote element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a block quotation",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a block quotation",
-        "explanation": "The blockquote element represents a block quotation."
-    },
-    {
-        "id": 207,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 code element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a fragment of computer code",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a fragment of computer code",
-        "explanation": "The code element represents a fragment of computer code."
-    },
-    {
-        "id": 208,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 pre element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent preformatted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent preformatted text",
-        "explanation": "The pre element represents preformatted text, preserving whitespace and line breaks."
-    },
-    {
-        "id": 209,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 samp element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent sample output from a computer program",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent sample output from a computer program",
-        "explanation": "The samp element represents sample output from a computer program."
-    },
-    {
-        "id": 210,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 kbd element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent user input, typically keyboard input",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent user input, typically keyboard input",
-        "explanation": "The kbd element represents user input, typically keyboard input."
-    },
-    {
-        "id": 211,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 var element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a variable in a mathematical expression or programming context",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a variable in a mathematical expression or programming context",
-        "explanation": "The var element represents a variable in a mathematical expression or programming context."
-    },
-    {
-        "id": 212,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 sub element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent subscript text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent subscript text",
-        "explanation": "The sub element represents subscript text."
-    },
-    {
-        "id": 213,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 sup element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent superscript text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent superscript text",
-        "explanation": "The sup element represents superscript text."
-    },
-    {
-        "id": 214,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 small element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent small print or fine print",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent small print or fine print",
-        "explanation": "The small element represents small print or fine print."
-    },
-    {
-        "id": 215,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 del element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent deleted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent deleted text",
-        "explanation": "The del element represents deleted text."
-    },
-    {
-        "id": 216,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 ins element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent inserted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent inserted text",
-        "explanation": "The ins element represents inserted text."
-    },
-    {
-        "id": 217,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 dfn element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a definition term",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a definition term",
-        "explanation": "The dfn element represents a definition term."
-    },
-    {
-        "id": 218,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 abbr element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent an abbreviation or acronym",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent an abbreviation or acronym",
-        "explanation": "The abbr element represents an abbreviation or acronym."
-    },
-    {
-        "id": 219,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 ruby element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent ruby annotations",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent ruby annotations",
-        "explanation": "The ruby element represents ruby annotations, used for East Asian typography."
-    },
-    {
-        "id": 220,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 rt element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent ruby text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent ruby text",
-        "explanation": "The rt element represents ruby text, used for East Asian typography."
-    },
-    {
-        "id": 221,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 rp element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent ruby parentheses",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent ruby parentheses",
-        "explanation": "The rp element represents ruby parentheses, used for East Asian typography."
-    },
-    {
-        "id": 222,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 bdi element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent text that is isolated from its surroundings for bidirectional text formatting",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent text that is isolated from its surroundings for bidirectional text formatting",
-        "explanation": "The bdi element represents text that is isolated from its surroundings for bidirectional text formatting."
-    },
-    {
-        "id": 223,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 bdo element?",
-        "options": [
-            "To add colors to inputs",
-            "To override the current text direction",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To override the current text direction",
-        "explanation": "The bdo element overrides the current text direction."
-    },
-    {
-        "id": 224,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 wbr element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a word break opportunity",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a word break opportunity",
-        "explanation": "The wbr element represents a word break opportunity, allowing the browser to break a line at that point if needed."
-    },
-    {
-        "id": 225,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 dialog element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a dialog box or window",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a dialog box or window",
-        "explanation": "The dialog element represents a dialog box or window that can be shown or hidden."
-    },
-    {
-        "id": 226,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 menu element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a list of commands or options",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a list of commands or options",
-        "explanation": "The menu element represents a list of commands or options."
-    },
-    {
-        "id": 227,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 menuitem element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a command that can be invoked from a menu",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a command that can be invoked from a menu",
-        "explanation": "The menuitem element represents a command that can be invoked from a menu."
-    },
-    {
-        "id": 228,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 command element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a command that can be invoked",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a command that can be invoked",
-        "explanation": "The command element represents a command that can be invoked."
-    },
-    {
-        "id": 229,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 keygen element?",
-        "options": [
-            "To add colors to inputs",
-            "To generate a key pair for form submission",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To generate a key pair for form submission",
-        "explanation": "The keygen element generates a key pair for form submission."
-    },
-    {
-        "id": 230,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 output element?",
-        "options": [
-            "To add colors to inputs",
-            "To display the result of a calculation or user action",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display the result of a calculation or user action",
-        "explanation": "The output element displays the result of a calculation or user action."
-    },
-    {
-        "id": 231,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 progress element?",
-        "options": [
-            "To add colors to inputs",
-            "To display the progress of a task",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display the progress of a task",
-        "explanation": "The progress element displays the progress of a task."
-    },
-    {
-        "id": 232,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 meter element?",
-        "options": [
-            "To add colors to inputs",
-            "To display a scalar measurement within a known range",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display a scalar measurement within a known range",
-        "explanation": "The meter element displays a scalar measurement within a known range."
-    },
-    {
-        "id": 233,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 details element?",
-        "options": [
-            "To add colors to inputs",
-            "To create a disclosure widget that can be toggled",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To create a disclosure widget that can be toggled",
-        "explanation": "The details element creates a disclosure widget that can be toggled to show or hide content."
-    },
-    {
-        "id": 234,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 summary element?",
-        "options": [
-            "To add colors to inputs",
-            "To provide a summary or caption for a details element",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To provide a summary or caption for a details element",
-        "explanation": "The summary element provides a summary or caption for a details element."
-    },
-    {
-        "id": 235,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 mark element?",
-        "options": [
-            "To add colors to inputs",
-            "To highlight text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To highlight text",
-        "explanation": "The mark element highlights text for reference purposes."
-    },
-    {
-        "id": 236,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 time element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a specific time or date",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a specific time or date",
-        "explanation": "The time element represents a specific time or date in a machine-readable format."
-    },
-    {
-        "id": 237,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 figure element?",
-        "options": [
-            "To add colors to inputs",
-            "To group related content like images and captions",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To group related content like images and captions",
-        "explanation": "The figure element groups related content like images, diagrams, or code blocks with their captions."
-    },
-    {
-        "id": 238,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 figcaption element?",
-        "options": [
-            "To add colors to inputs",
-            "To provide a caption for a figure element",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To provide a caption for a figure element",
-        "explanation": "The figcaption element provides a caption for a figure element."
-    },
-    {
-        "id": 239,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 aside element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent content that is tangentially related to the main content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent content that is tangentially related to the main content",
-        "explanation": "The aside element represents content that is tangentially related to the main content, like sidebars or callouts."
-    },
-    {
-        "id": 240,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 nav element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a section of navigation links",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a section of navigation links",
-        "explanation": "The nav element represents a section of navigation links."
-    },
-    {
-        "id": 241,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 main element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent the main content of the document",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent the main content of the document",
-        "explanation": "The main element represents the main content of the document, excluding headers, footers, and navigation."
-    },
-    {
-        "id": 242,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 section element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a thematic grouping of content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a thematic grouping of content",
-        "explanation": "The section element represents a thematic grouping of content, typically with a heading."
-    },
-    {
-        "id": 243,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 article element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a self-contained piece of content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a self-contained piece of content",
-        "explanation": "The article element represents a self-contained piece of content that could be distributed independently."
-    },
-    {
-        "id": 244,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 header element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent introductory content or navigational aids",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent introductory content or navigational aids",
-        "explanation": "The header element represents introductory content or navigational aids for a section or the entire page."
-    },
-    {
-        "id": 245,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 footer element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent footer content for a section or the entire page",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent footer content for a section or the entire page",
-        "explanation": "The footer element represents footer content for a section or the entire page."
-    },
-    {
-        "id": 246,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 address element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent contact information",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent contact information",
-        "explanation": "The address element represents contact information for the nearest article or body element ancestor."
-    },
-    {
-        "id": 247,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 cite element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent the title of a work",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent the title of a work",
-        "explanation": "The cite element represents the title of a work, such as a book, movie, or song."
-    },
-    {
-        "id": 248,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 q element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a short inline quotation",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a short inline quotation",
-        "explanation": "The q element represents a short inline quotation."
-    },
-    {
-        "id": 249,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 blockquote element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a block quotation",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a block quotation",
-        "explanation": "The blockquote element represents a block quotation."
-    },
-    {
-        "id": 250,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 code element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a fragment of computer code",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a fragment of computer code",
-        "explanation": "The code element represents a fragment of computer code."
-    },
-    {
-        "id": 251,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 pre element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent preformatted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent preformatted text",
-        "explanation": "The pre element represents preformatted text, preserving whitespace and line breaks."
-    },
-    {
-        "id": 252,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 samp element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent sample output from a computer program",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent sample output from a computer program",
-        "explanation": "The samp element represents sample output from a computer program."
-    },
-    {
-        "id": 253,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 kbd element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent user input, typically keyboard input",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent user input, typically keyboard input",
-        "explanation": "The kbd element represents user input, typically keyboard input."
-    },
-    {
-        "id": 254,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 var element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a variable in a mathematical expression or programming context",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a variable in a mathematical expression or programming context",
-        "explanation": "The var element represents a variable in a mathematical expression or programming context."
-    },
-    {
-        "id": 255,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 sub element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent subscript text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent subscript text",
-        "explanation": "The sub element represents subscript text."
-    },
-    {
-        "id": 256,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 sup element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent superscript text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent superscript text",
-        "explanation": "The sup element represents superscript text."
-    },
-    {
-        "id": 257,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 small element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent small print or fine print",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent small print or fine print",
-        "explanation": "The small element represents small print or fine print."
-    },
-    {
-        "id": 258,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 del element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent deleted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent deleted text",
-        "explanation": "The del element represents deleted text."
-    },
-    {
-        "id": 259,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 ins element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent inserted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent inserted text",
-        "explanation": "The ins element represents inserted text."
-    },
-    {
-        "id": 260,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 dfn element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a definition term",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a definition term",
-        "explanation": "The dfn element represents a definition term."
-    },
-    {
-        "id": 261,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 abbr element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent an abbreviation or acronym",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent an abbreviation or acronym",
-        "explanation": "The abbr element represents an abbreviation or acronym."
-    },
-    {
-        "id": 262,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 ruby element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent ruby annotations",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent ruby annotations",
-        "explanation": "The ruby element represents ruby annotations, used for East Asian typography."
-    },
-    {
-        "id": 263,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 rt element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent ruby text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent ruby text",
-        "explanation": "The rt element represents ruby text, used for East Asian typography."
-    },
-    {
-        "id": 264,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 rp element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent ruby parentheses",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent ruby parentheses",
-        "explanation": "The rp element represents ruby parentheses, used for East Asian typography."
-    },
-    {
-        "id": 265,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 bdi element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent text that is isolated from its surroundings for bidirectional text formatting",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent text that is isolated from its surroundings for bidirectional text formatting",
-        "explanation": "The bdi element represents text that is isolated from its surroundings for bidirectional text formatting."
-    },
-    {
-        "id": 266,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 bdo element?",
-        "options": [
-            "To add colors to inputs",
-            "To override the current text direction",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To override the current text direction",
-        "explanation": "The bdo element overrides the current text direction."
-    },
-    {
-        "id": 267,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 wbr element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a word break opportunity",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a word break opportunity",
-        "explanation": "The wbr element represents a word break opportunity, allowing the browser to break a line at that point if needed."
-    },
-    {
-        "id": 268,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 dialog element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a dialog box or window",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a dialog box or window",
-        "explanation": "The dialog element represents a dialog box or window that can be shown or hidden."
-    },
-    {
-        "id": 269,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 menu element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a list of commands or options",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a list of commands or options",
-        "explanation": "The menu element represents a list of commands or options."
-    },
-    {
-        "id": 270,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 menuitem element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a command that can be invoked from a menu",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a command that can be invoked from a menu",
-        "explanation": "The menuitem element represents a command that can be invoked from a menu."
-    },
-    {
-        "id": 271,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 command element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a command that can be invoked",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a command that can be invoked",
-        "explanation": "The command element represents a command that can be invoked."
-    },
-    {
-        "id": 272,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 keygen element?",
-        "options": [
-            "To add colors to inputs",
-            "To generate a key pair for form submission",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To generate a key pair for form submission",
-        "explanation": "The keygen element generates a key pair for form submission."
-    },
-    {
-        "id": 273,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 output element?",
-        "options": [
-            "To add colors to inputs",
-            "To display the result of a calculation or user action",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display the result of a calculation or user action",
-        "explanation": "The output element displays the result of a calculation or user action."
-    },
-    {
-        "id": 274,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 progress element?",
-        "options": [
-            "To add colors to inputs",
-            "To display the progress of a task",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display the progress of a task",
-        "explanation": "The progress element displays the progress of a task."
-    },
-    {
-        "id": 275,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 meter element?",
-        "options": [
-            "To add colors to inputs",
-            "To display a scalar measurement within a known range",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To display a scalar measurement within a known range",
-        "explanation": "The meter element displays a scalar measurement within a known range."
-    },
-    {
-        "id": 276,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 details element?",
-        "options": [
-            "To add colors to inputs",
-            "To create a disclosure widget that can be toggled",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To create a disclosure widget that can be toggled",
-        "explanation": "The details element creates a disclosure widget that can be toggled to show or hide content."
-    },
-    {
-        "id": 277,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 summary element?",
-        "options": [
-            "To add colors to inputs",
-            "To provide a summary or caption for a details element",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To provide a summary or caption for a details element",
-        "explanation": "The summary element provides a summary or caption for a details element."
-    },
-    {
-        "id": 278,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 mark element?",
-        "options": [
-            "To add colors to inputs",
-            "To highlight text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To highlight text",
-        "explanation": "The mark element highlights text for reference purposes."
-    },
-    {
-        "id": 279,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 time element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a specific time or date",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a specific time or date",
-        "explanation": "The time element represents a specific time or date in a machine-readable format."
-    },
-    {
-        "id": 280,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 figure element?",
-        "options": [
-            "To add colors to inputs",
-            "To group related content like images and captions",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To group related content like images and captions",
-        "explanation": "The figure element groups related content like images, diagrams, or code blocks with their captions."
-    },
-    {
-        "id": 281,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 figcaption element?",
-        "options": [
-            "To add colors to inputs",
-            "To provide a caption for a figure element",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To provide a caption for a figure element",
-        "explanation": "The figcaption element provides a caption for a figure element."
-    },
-    {
-        "id": 282,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 aside element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent content that is tangentially related to the main content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent content that is tangentially related to the main content",
-        "explanation": "The aside element represents content that is tangentially related to the main content, like sidebars or callouts."
-    },
-    {
-        "id": 283,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 nav element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a section of navigation links",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a section of navigation links",
-        "explanation": "The nav element represents a section of navigation links."
-    },
-    {
-        "id": 284,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 main element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent the main content of the document",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent the main content of the document",
-        "explanation": "The main element represents the main content of the document, excluding headers, footers, and navigation."
-    },
-    {
-        "id": 285,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 section element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a thematic grouping of content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a thematic grouping of content",
-        "explanation": "The section element represents a thematic grouping of content, typically with a heading."
-    },
-    {
-        "id": 286,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 article element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a self-contained piece of content",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a self-contained piece of content",
-        "explanation": "The article element represents a self-contained piece of content that could be distributed independently."
-    },
-    {
-        "id": 287,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 header element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent introductory content or navigational aids",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent introductory content or navigational aids",
-        "explanation": "The header element represents introductory content or navigational aids for a section or the entire page."
-    },
-    {
-        "id": 288,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 footer element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent footer content for a section or the entire page",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent footer content for a section or the entire page",
-        "explanation": "The footer element represents footer content for a section or the entire page."
-    },
-    {
-        "id": 289,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 address element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent contact information",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent contact information",
-        "explanation": "The address element represents contact information for the nearest article or body element ancestor."
-    },
-    {
-        "id": 290,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 cite element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent the title of a work",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent the title of a work",
-        "explanation": "The cite element represents the title of a work, such as a book, movie, or song."
-    },
-    {
-        "id": 291,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 q element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a short inline quotation",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a short inline quotation",
-        "explanation": "The q element represents a short inline quotation."
-    },
-    {
-        "id": 292,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 blockquote element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a block quotation",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a block quotation",
-        "explanation": "The blockquote element represents a block quotation."
-    },
-    {
-        "id": 293,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 code element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a fragment of computer code",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a fragment of computer code",
-        "explanation": "The code element represents a fragment of computer code."
-    },
-    {
-        "id": 294,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 pre element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent preformatted text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent preformatted text",
-        "explanation": "The pre element represents preformatted text, preserving whitespace and line breaks."
-    },
-    {
-        "id": 295,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 samp element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent sample output from a computer program",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent sample output from a computer program",
-        "explanation": "The samp element represents sample output from a computer program."
-    },
-    {
-        "id": 296,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 kbd element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent user input, typically keyboard input",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent user input, typically keyboard input",
-        "explanation": "The kbd element represents user input, typically keyboard input."
-    },
-    {
-        "id": 297,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 var element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent a variable in a mathematical expression or programming context",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent a variable in a mathematical expression or programming context",
-        "explanation": "The var element represents a variable in a mathematical expression or programming context."
-    },
-    {
-        "id": 298,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 sub element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent subscript text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent subscript text",
-        "explanation": "The sub element represents subscript text."
-    },
-    {
-        "id": 299,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 sup element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent superscript text",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent superscript text",
-        "explanation": "The sup element represents superscript text."
-    },
-    {
-        "id": 300,
-        "category": "Web Development",
-        "question": "What is the purpose of the HTML5 small element?",
-        "options": [
-            "To add colors to inputs",
-            "To represent small print or fine print",
-            "To create animations",
-            "To add validation"
-        ],
-        "answer": "To represent small print or fine print",
-        "explanation": "The small element represents small print or fine print."
+        "question": "In JavaScript, what is the Temporal Dead Zone?",
+        "options": [
+            "A period when let and const variables exist but are not accessible",
+            "A bug in asynchronous code",
+            "An optimization technique",
+            "A deprecated ES5 feature"
+        ],
+        "answer": "A period when let and const variables exist but are not accessible",
+        "explanation": "Variables declared with let and const are hoisted but not initialized. Accessing them before initialization results in a ReferenceError."
     }
 ]
