@@ -73,6 +73,14 @@ const Index = () => {
                             variant="outline"
                             size="lg"
                             className="text-lg px-8 py-6 animate-slide-up"
+                            onClick={() => navigate("/learn")}
+                        >
+                            Learn
+                        </Button>
+                        <Button
+                            variant="outline"
+                            size="lg"
+                            className="text-lg px-8 py-6 animate-slide-up"
                             onClick={() => navigate("/stats")}
                         >
                             View Stats

@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Practice from "./pages/Practice";
 import Stats from "./pages/Stats";
+import Learn from "./pages/Learn";
 import NotFound from "./pages/NotFound";
 import ThemeToggle from "@/components/ThemeToggle";
 
@@ -20,6 +21,7 @@ const App = () => (
                 <Routes>
                     <Route path="/" element={<Index />} />
                     <Route path="/practice" element={<Practice />} />
+                    <Route path="/learn" element={<Learn />} />
                     <Route path="/stats" element={<Stats />} />
                     {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                     <Route path="*" element={<NotFound />} />
